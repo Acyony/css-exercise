@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D4F1F4;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.unicorn {
+    position: relative;
+}
+
+.horn {
+    position: absolute;
+    left: 21px;
+    top: -37px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 50px solid yellow;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-23deg);
+    z-index: 9999;
+}
+
+.head {
+    width: 120px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 50% 25% 25% 50%;
+    position: relative;
+    transform: rotate(75deg);
+    Z-index: 3;
+
+}
+
+.ear-1, .ear-2 {
+    position: absolute;
+    background-color: #fff;
+    width: 33px;
+    height: 44px;
+}
+
+.ear-1 {
+    left: -19px;
+    top: 0;
+    border-radius: 50% 70% 50% 50%;
+    transform: rotate(-51deg);
+}
+
+.ear-2 {
+    right: 123px;
+    top: -29px;
+    border-radius: 70% 50% 50% 50%;
+    transform: rotate(14deg);
+}
+
+.ear-1-small, .ear-2-small {
+    position: absolute;
+    background: pink;
+    width: 24px;
+    height: 29px;
+    border-radius: 70% 70% 50% 50%;
+    top: 10PX;
+}
+
+.ear-1-small {
+    left: 3px;
+}
+
+.ear-2-small {
+    left: 5px;
+}
+
+.eyes-wrap, .cheek-wrap {
+    flex-direction: column;
+    flex-direction: column;
+    display: flex;
+    display: flex;
+    width: 30px;
+
+}
+
+.eyes-wrap {
+    margin-left: 3.5rem;
+    padding-top: 1.5rem;
+}
+
+.cheek-wrap {
+    position: absolute;
+    margin-left: 4.5rem;
+    padding-bottom: 1.5rem;
+    top: 12PX;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0 1rem 1rem 0;
+    z-index: 3
+
+}
+
+.eye-small {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.cheek {
+    background-color: pink;
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    z-index: 2;
+    opacity: 0.33;
+}
+
+.hair-wrap {
+    height: 0;
+    position: absolute;
+    top: 4rem;
+    left: 3px;
+}
+
+.hair-1 {
+    background-color: pink;
+    width: 47px;
+    height: 39px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/*
+.hair-1-empty {
+    position: absolute;
+    top: -1rem;
+    background-color: white;
+    width: 47px;
+    height: 44px;
+    border-radius: 50%;
+    border-bottom: 3px solid black;
+}*/
+
+.hair-2 {
+    position: absolute;
+    left: -1px;
+    top: -25px;
+    background-color: #aaefff;
+    border: 3px solid black;
+
+    width: 46px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.hair-3 {
+    position: absolute;
+    left: -1px;
+    top: -42px;
+    background-color: pink;
+    border: 3px solid black;
+
+    width: 46px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hair-4 {
+    position: absolute;
+    left: -1px;
+    top: -42px;
+    background-color: #FBE7C6;
+    border: 3px solid black;
+
+    width: 46px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*.unicorn-hair {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(
+            to right,
+            pink, !* Pink stripe *! #fff0f5, !* Lavender blush for transition *! lightblue, !* Light blue stripe *! #f8f8ff, !* Ghost white for transition *! lavender, !* Lavender stripe *! #f8f8ff, !* Ghost white for transition *! pink !* Pink stripe *!
+    );
+    border-radius: 50%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}*/
