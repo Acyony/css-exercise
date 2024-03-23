@@ -1,5 +1,8 @@
 # css-exercise
 Repo created for learning purposes
 
+<p style="text-align: center;">
+  <img width="433" alt="Screenshot 2024-03-23 at 08 01 17" src="https://github.com/Acyony/css-exercise/assets/42450397/302ee684-297f-4f27-80a7-fa1a5f5dcd11">
+</p>
 
-<img width="416" alt="Screenshot 2024-03-17 at 22 45 20" src="https://github.com/Acyony/css-exercise/assets/42450397/ffd86aad-51e6-4907-8c6d-aa014fce9717">
+
